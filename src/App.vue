@@ -1,11 +1,20 @@
 <template>
   <HelloWorld msg="Vite + Vue" />
+  <div class="header">
+    <div class="title">Hello</div>
+  </div>
 </template>
 
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
 </script>
-<style scoped>
+<style scoped lang="scss">
+.header {
+  .title {
+    font-size: 30px;
+    color: #897389;
+  }
+}
 .logo {
   height: 6em;
   padding: 1.5em;
